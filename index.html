@@ -1,0 +1,46 @@
+<form action="/reg" method="POST" id="regForm">
+    <lable id="title">Форма регистрации</lable>
+    <table>
+      <tboby>
+        <tr>
+          <td class="lbl">Имя:</td>
+          <td><input type="text" name="name" id="name" class="textbox"/>
+        </tr>
+        <tr>
+
+        <tr>
+          <td class="lbl">E-mail:</td>
+          <td><input type="text" name="mail" id="mail" class="textbox"/>
+        </tr>
+        <tr>
+          <td></td>
+          <td><lable class="help">только @mail.com</lable></td>
+        </tr>
+        <tr>
+          <td class="lbl">Пароль:</td>
+          <td><input type="password" name="password" id="password" class="textbox"/>
+        </tr>
+        <tr>
+          <td></td>
+          <td><lable class="help">от 5 до 10 символов</lable></td>
+        </tr>
+        <tr>
+          <td class="lbl">Подтвердить пароль:</td>
+          <td><input type="password" name="password2" id="password2" class="textbox"/>
+        </tr>
+        <tr>
+          <td></td>
+          <td><lable class="help">должен совпадать с паролем</lable></td>
+        </tr>
+        <tr>
+          <td class="lbl">Информация:</td>
+          <td><textarea maxlength="250" name="info" id="info" class="textbox"></textarea>
+        </tr>
+        <tr>
+          <td></td>
+          <td><lable class="help">в свободной форме, максисум 250 символов</lable></td>
+        </tr>
+      </tbody>
+    </table>
+    <input type="button" id="send" value="Отправить заявку"/>
+  </form>
